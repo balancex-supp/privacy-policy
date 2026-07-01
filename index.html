@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for My Account - Debt & Credit Tracker app.">
+    <title>My Account — Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333;
+            background: #fff;
+            line-height: 1.7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 4px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 4px;
+        }
+
+        .date {
+            font-size: 13px;
+            color: #999;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            font-size: 14px;
+            padding-left: 24px;
+            margin-bottom: 10px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: #1a73e8;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0;
+            font-size: 14px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #f5f5f5;
+            font-weight: 600;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 24px 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Privacy Policy</h1>
+    <p class="subtitle">My Account — Debt & Credit Tracker</p>
+    <p class="date">Effective Date: July 1, 2026</p>
+
+    <hr>
+
+    <!-- 1. Introduction -->
+    <h2>1. Introduction</h2>
+    <p>Welcome to My Account ("we", "our", or "us"). This Privacy Policy describes how we collect, use, store, and protect your information when you use our mobile application ("App").</p>
+    <p>By downloading, installing, or using My Account, you agree to the terms of this Privacy Policy. If you do not agree, please do not use the App.</p>
+
+    <!-- 2. Information We Collect -->
+    <h2>2. Information We Collect</h2>
+    <p>My Account collects and processes the following types of data:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Data Type</th>
+                <th>Purpose</th>
+                <th>Storage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Contact Names</td>
+                <td>Display contacts for debt/credit tracking</td>
+                <td>Local Only</td>
+            </tr>
+            <tr>
+                <td>Transaction Records</td>
+                <td>Track debts and credits you manually enter</td>
+                <td>Local Only</td>
+            </tr>
+            <tr>
+                <td>App Preferences</td>
+                <td>Language, currency, theme, PIN settings</td>
+                <td>Local Only</td>
+            </tr>
+            <tr>
+                <td>Google Account Info</td>
+                <td>Optional Google Drive backup & sync</td>
+                <td>Google Servers</td>
+            </tr>
+            <tr>
+                <td>Purchase Status</td>
+                <td>PRO version purchase verification</td>
+                <td>Google Play</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>All your financial data (debts, credits, transactions) is stored exclusively on your device in a local SQLite database. We do NOT have access to your data on any server.</p>
+
+    <!-- 3. App Permissions -->
+    <h2>3. App Permissions</h2>
+    <p>My Account requests the following device permissions:</p>
+    <ul>
+        <li><strong>Contacts (READ_CONTACTS):</strong> To allow you to select contacts from your phone's address book for debt/credit tracking. This permission is optional — the app works fully without granting it. You can enter names manually.</li>
+        <li><strong>Internet (INTERNET):</strong> Required for Google Drive backup sync, Google Sign-In authentication, PRO version purchase verification through Google Play, and loading fonts for PDF generation.</li>
+    </ul>
+    <p>Your contact data is never uploaded to our servers. Contact names are stored locally on your device only to display alongside your transaction records. We do not access, share, or transmit your contacts to any third party.</p>
+
+    <!-- 4. How We Use Your Information -->
+    <h2>4. How We Use Your Information</h2>
+    <p>We use the collected information solely for the following purposes:</p>
+    <ul>
+        <li>Displaying and managing your personal debt and credit records</li>
+        <li>Generating PDF reports of your transactions</li>
+        <li>Setting payment reminders and notifications</li>
+        <li>Synchronizing your data to your Google Drive account (if you opt in)</li>
+        <li>Verifying your PRO subscription purchase status via Firebase Cloud Functions</li>
+        <li>Saving your app preferences (language, currency, theme)</li>
+    </ul>
+    <p>We do not use your data for advertising, profiling, analytics, or any purpose other than the core app functionality listed above.</p>
+
+    <!-- 5. Google Drive Backup & Sync -->
+    <h2>5. Google Drive Backup & Sync</h2>
+    <p>My Account offers an optional Google Drive backup feature. When enabled:</p>
+    <ul>
+        <li>Your transaction data is backed up to your own Google Drive account in the app-specific folder only.</li>
+        <li>We use the official Google Sign-In and Google Drive API with the most restrictive scope — we can only access files created by this app.</li>
+        <li>We cannot read, modify, or delete your other Google Drive files.</li>
+        <li>You can disconnect Google Drive and revoke access at any time through the app settings or your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions</a>.</li>
+    </ul>
+    <p>This feature is entirely optional. My Account works fully offline without Google Drive sync enabled.</p>
+
+    <!-- 6. Firebase Cloud Functions -->
+    <h2>6. Firebase Cloud Functions</h2>
+    <p>My Account uses Firebase Cloud Functions solely for server-side verification of PRO version purchases made through Google Play Billing. This ensures purchase integrity and prevents unauthorized access to premium features.</p>
+    <ul>
+        <li>No personal data is sent to Firebase — only the purchase token provided by Google Play.</li>
+        <li>Firebase Cloud Functions are hosted on Google's secure infrastructure.</li>
+        <li>We do not use Firebase Analytics, Firebase Crashlytics, or any other Firebase tracking services.</li>
+    </ul>
+    <p>For more information, refer to <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a>.</p>
+
+    <!-- 7. In-App Purchases -->
+    <h2>7. In-App Purchases</h2>
+    <p>My Account offers a PRO version through Google Play In-App Purchase. All payment processing is handled entirely by Google Play Billing.</p>
+    <p>We do not collect, process, or store any financial information including credit card numbers, billing addresses, or bank account details. For more information, refer to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+    <!-- 8. Data Sharing & Third Parties -->
+    <h2>8. Data Sharing & Third Parties</h2>
+    <p>We do NOT:</p>
+    <ul>
+        <li>Sell, rent, or trade your personal data to any third party</li>
+        <li>Share your data with advertisers or marketing companies</li>
+        <li>Use analytics SDKs, tracking pixels, or behavioral tracking</li>
+        <li>Collect crash reports, device identifiers, or usage statistics</li>
+        <li>Transmit any personal data to our own servers</li>
+    </ul>
+    <p>The only third-party services integrated are:</p>
+    <ul>
+        <li><strong>Google Sign-In</strong> — for optional Drive backup authentication</li>
+        <li><strong>Google Drive API</strong> — for optional cloud backup (app-data scope only)</li>
+        <li><strong>Google Play Billing</strong> — for PRO version purchase processing</li>
+        <li><strong>Firebase Cloud Functions</strong> — for server-side purchase verification only</li>
+    </ul>
+    <p>Each of these services is governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+
+    <!-- 9. Data Storage & Security -->
+    <h2>9. Data Storage & Security</h2>
+    <p>We take the security of your data seriously:</p>
+    <ul>
+        <li>All app data is stored locally on your device using an SQLite database and SharedPreferences.</li>
+        <li>No personal data is transmitted to external servers owned or operated by us.</li>
+        <li>Optional PIN code protection is available to prevent unauthorized access to the app.</li>
+        <li>Google Drive backups use Google's encrypted infrastructure and are accessible only through your Google account.</li>
+        <li>If you uninstall the app, all locally stored data is permanently deleted.</li>
+        <li>Google Drive backups remain in your Drive account until you manually delete them.</li>
+    </ul>
+
+    <!-- 10. Data Retention -->
+    <h2>10. Data Retention</h2>
+    <p>Your data is retained as follows:</p>
+    <ul>
+        <li><strong>Local data:</strong> Retained on your device until you delete individual records, clear app data, or uninstall the app.</li>
+        <li><strong>Deleted records:</strong> Moved to an in-app trash folder. You can permanently delete them at any time from the Trash screen.</li>
+        <li><strong>Google Drive backups:</strong> Retained in your Google Drive account until you manually delete the backup files or revoke app access.</li>
+        <li><strong>Purchase data:</strong> Managed by Google Play and subject to Google's data retention policies.</li>
+    </ul>
+
+    <!-- 11. Children's Privacy -->
+    <h2>11. Children's Privacy</h2>
+    <p>My Account is not directed at children under the age of 13 (or the applicable age of consent in your jurisdiction). We do not knowingly collect personal information from children.</p>
+    <p>If you are a parent or guardian and believe your child has provided us with personal data, please <a href="mailto:balancex.supp@gmail.com">contact us</a> immediately so we can take appropriate action.</p>
+
+    <!-- 12. Your Rights -->
+    <h2>12. Your Rights</h2>
+    <p>Under applicable privacy laws (including GDPR and CCPA), you have the following rights:</p>
+    <ul>
+        <li><strong>Right to Access:</strong> All your data is visible and accessible within the app at all times.</li>
+        <li><strong>Right to Rectification:</strong> You can edit any transaction record, contact name, or app setting directly in the app.</li>
+        <li><strong>Right to Deletion:</strong> You can delete individual records, use the trash feature, clear all data, or uninstall the app to remove all data.</li>
+        <li><strong>Right to Data Portability:</strong> You can export your transaction data as PDF reports and share them.</li>
+        <li><strong>Right to Withdraw Consent:</strong> You can revoke contact access at any time in your device settings. You can disconnect Google Drive sync at any time in the app.</li>
+        <li><strong>Right to Object:</strong> Since we do not process your data for marketing or profiling, this right is inherently fulfilled.</li>
+    </ul>
+    <p>To exercise any of these rights, you can take action directly within the app or <a href="mailto:balancex.supp@gmail.com">contact us</a>.</p>
+
+    <!-- 13. International Data Transfers -->
+    <h2>13. International Data Transfers</h2>
+    <p>Since all data is stored locally on your device, no international data transfers occur through our app. If you choose to use Google Drive sync, your data transfer is governed by Google's infrastructure and their <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>, which includes appropriate safeguards for international transfers.</p>
+
+    <!-- 14. Changes to This Policy -->
+    <h2>14. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices or for legal, regulatory, or operational reasons. Any updates will be posted on this page with a revised "Effective Date" at the top.</p>
+    <p>Your continued use of the App after any changes indicates your acceptance of the updated policy.</p>
+
+    <!-- 15. Contact Us -->
+    <h2>15. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
+    <p><strong>Email:</strong> <a href="mailto:balancex.supp@gmail.com">balancex.supp@gmail.com</a></p>
+    <p>We will respond to your inquiry within a reasonable timeframe, typically within 30 days.</p>
+
+    <div class="footer">
+        <p>&copy; 2026 My Account. All rights reserved.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
